@@ -76,11 +76,18 @@ nav ul li a {
     gap: .6em;
 }
 .contact-details form input {
+    border: 1px solid black;
     padding: .6em;
+}
+.contact-details form input:focus {
+    outline-color: #c1d2ff;
 }
 textarea {
     resize: none;
     padding: .4em;
+}
+textarea:focus {
+    outline-color: #c1d2ff;
 }
 .contact-details form button {
     background-color:#182C61;
@@ -92,6 +99,7 @@ textarea {
     font-weight: normal;
 }
 .contact-details form button:hover {
+    outline: none;
     background-color:#4c71d6;
 }
 .address address p {
